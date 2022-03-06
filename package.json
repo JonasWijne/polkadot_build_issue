@@ -1,0 +1,21 @@
+{
+  "name": "polkadotapi_issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@polkadot/api": "^7.11.1",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6",
+    "vue-tsc": "^0.32.1"
+  }
+}
